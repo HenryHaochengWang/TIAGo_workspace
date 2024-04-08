@@ -1,4 +1,4 @@
-# ROS_TIAGo_Learning
+# ROS_TIAGo_ws
 
 ## 1. Launching simulation
 
