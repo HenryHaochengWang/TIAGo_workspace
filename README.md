@@ -1,6 +1,6 @@
 # ROS_TIAGo_ws
 
-To build dokcer image, run `docker build -t henry_ws_image -f Docker/Dockerfile .`
+
 
 
 
