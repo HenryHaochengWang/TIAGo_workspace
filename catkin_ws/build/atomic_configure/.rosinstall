@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/x57/ROS_TIAGo_ws/catkin_ws/devel/setup.sh
+    local-name: /home/x57/TIAGo_workspace/catkin_ws/devel/setup.sh

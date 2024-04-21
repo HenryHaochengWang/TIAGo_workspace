@@ -1,2 +1,2 @@
-
--DCATKIN_DEVEL_PREFIX=/home/x57/ROS_TIAGo_ws/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/x57/ROS_TIAGo_ws/catkin_ws/install -G Unix Makefiles
+my_tiago_controller
+-DCATKIN_DEVEL_PREFIX=/home/x57/TIAGo_workspace/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/x57/TIAGo_workspace/catkin_ws/install -G Unix Makefiles
