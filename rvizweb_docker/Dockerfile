@@ -1,7 +1,7 @@
 FROM ros:kinetic
 
 # Basic tools and dependencies and nodejs LTS PPA.
-RUN apt update && apt install -y curl && curl -sL https://deb.nodesource.com/setup_16.x | bash -
+RUN apt update && apt install -y curl nano && curl -sL https://deb.nodesource.com/setup_16.x | bash -
 
 # Install rvizweb.
 WORKDIR /rvizweb_ws
@@ -31,4 +31,5 @@ RUN cp -r /rvizweb_ws/build/rvizweb/www/* /rvizweb_ws/install/share/rvizweb/www/
 
 EXPOSE 8001
 
-ENTRYPOINT ["/bin/bash", "-c", "source /rvizweb_ws/install/setup.bash && roslaunch rvizweb rvizweb.launch"]
+ENTRYPOINT ["/bin/bash", "-c", "source /rvizweb_ws/install/setup.bash && /bin/bash"]
+        # roslaunch rvizweb rvizweb.launch"]

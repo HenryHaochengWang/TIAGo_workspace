@@ -1,0 +1,2 @@
+msgs_translater:my_tiago_controller:tiago_control
+-DCATKIN_DEVEL_PREFIX=/home/x57/TIAGo_workspace/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/x57/TIAGo_workspace/catkin_ws/install -G Unix Makefiles

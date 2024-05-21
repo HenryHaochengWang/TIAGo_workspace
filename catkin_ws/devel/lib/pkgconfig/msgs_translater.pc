@@ -1,0 +1,8 @@
+prefix=/home/x57/TIAGo_workspace/catkin_ws/devel
+
+Name: msgs_translater
+Description: Description of msgs_translater
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
