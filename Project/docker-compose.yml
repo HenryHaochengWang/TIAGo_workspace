@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  rvizweb:
+    build:
+      context: ./rvizweb_docker
+    ports:
+      - "8001:8001"
+    networks:
+      - webxr_network
+
+  webxr:
+    build:
+      context: ./WebXR
+    ports:
+      - "8080:80"
+    networks:
+      - webxr_network
+
+networks:
+  webxr_network:
+    driver: bridge
