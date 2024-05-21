@@ -4,14 +4,17 @@ services:
   rvizweb:
     build:
       context: ./rvizweb_docker
+      dockerfile: Dockerfile
     ports:
       - "8001:8001"
     networks:
       - webxr_network
+    command: roslaunch rvizweb rvizweb.launch
 
   webxr:
     build:
       context: ./WebXR
+      dockerfile: Dockerfile
     ports:
       - "8080:80"
     networks:
